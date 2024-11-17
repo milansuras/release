@@ -1,0 +1,9 @@
+replicaCount: 1
+image:
+  repository: 339712738323.dkr.ecr.ap-south-1.amazonaws.com/devops-react
+  tag: latest
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 80
+containerPort: 8080
